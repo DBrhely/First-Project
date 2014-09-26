@@ -18,7 +18,8 @@ print("Try to guess it in as few attempts as possible.\n")
 
 # set the initial values
 the_number = random.randint(1, 100)
-guess = # Create the priming read here
+guess = input("Enter the number: ") 
+#Create the priming read here
 tries = 1
 
 # guessing loop
@@ -26,7 +27,8 @@ while guess != the_number:
     #put the guessing game logic here
             
     tries += 1
-    guess = #Create the following read here
+    guess = input("Enter the number ")
+#Create the following read here
 
 
 print("You guessed it!  The number was", the_number)
